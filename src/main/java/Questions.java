@@ -11,7 +11,8 @@ public class Questions {
 
     //Instructions:
     //  Given an array of integers, output all numbers appearing more than once.  Only output duplicates
-    //  one time.
+    //  one time.  A sample input array is provided, but your code should perform for any
+    //  array of any number of integers.
     public void Question_FindDuplicates() {
 
         //Do NOT modify values below
@@ -27,7 +28,8 @@ public class Questions {
 
     //Instructions:
     //  Given an array of integers, return indices of two numbers that add up to the provided target.
-    //  Return only ONE solution.  You may not use the same index twice.
+    //  Return only ONE solution.  You may not use the same index twice.  A sample array is provided,
+    //  but code should perform for any array of any number of integers.
     public void Question_TwoSum() {
 
         //Do NOT modify values below
