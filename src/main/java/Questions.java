@@ -13,13 +13,24 @@ public class Questions {
         final int targetValue = 9;
         //OUTPUT TWO INDICES
         System.out.println("\n\n-----QUESTION_TWOSUM-----\n\n");
-        Question_TwoSum(twoSumArray, targetValue);
+        System.out.println(Question_TwoSum(twoSumArray, targetValue));
 
 
         //OUTPUT THE NUMBERS
         System.out.println("\n\n-----QUESTION_COLLECTIONS-----\n\n");
         System.out.println(Question_Collections());
 
+
+        //OUTPUT THE SECTIONS
+        final String[] grid = {
+                "1,1,r", "1,2,r", "1,3,b", "1,4,r",
+                "2,1,b", "2,2,r", "2,3,b", "2,4,b",
+                "3,1,b", "3,2,b", "3,3,r", "3,4,r",
+                "4,1,r", "4,2,b", "4,3,b", "4,4,r"
+        };
+        final String color = "r";
+        System.out.println("\n\n-----QUESTION_GERRYMANDER-----\n\n");
+        System.out.println(Question_Gerrymander(grid, color));
     }
 
     //Instructions:
@@ -57,5 +68,34 @@ public class Questions {
 
     }
 
+    //Instructions:
+    //  Given an array of strings representing an NxN grid of red and blue squares and a desired
+    //  color "r" or "b", create N contiguous sections of N squares each.  The sections should
+    //  be divided in such a way the maximum number of sections where more than half of squares
+    //  are the desired color is achieved.
+    //  Return the sections as an array of arrays of strings representing the squares in each section.
+    //
+    //  For example, in a 3x3 square, given:
+    //
+    //  String[]{
+    //    "1,1,r", "1,2,r", "1,3,r",
+    //    "2,1,b", "2,2,b", "2,3,b",
+    //    "3,1,b", "3,2,b", "3,3,b"
+    //  }
+    //  and a target color of "b"
+    //
+    //  The expected return would be
+    //
+    //  String[][]{
+    //    String[] {"1,1", "2,1", "3,1"},
+    //    String[] {"1,2", "2,2", "3,2"},
+    //    String[] {"1,3", "2,3", "3,3"}
+    //  }
+    public static String[][] Question_Gerrymander(String[] grid, String color) {
+
+        //YOUR CODE HERE
+
+
+    }
 
 }
